@@ -5,4 +5,4 @@ on:
   
 jobs:
   call-issue-blocker:
-    uses: Budhaprasad/Workflow/.github/workflows/issue-blocker-reusable.yml@main
+    uses: Budhaprasad/Budda1/.github/workflows/issue-blocker-reusable.yml@main
