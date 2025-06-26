@@ -2,6 +2,9 @@ name: "Auto Manage Issue Blockers"
 
 on:
   workflow_dispatch:
+
+permissions:
+  issues: write
   
 jobs:
   call-issue-blocker:
