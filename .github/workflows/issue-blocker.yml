@@ -1,0 +1,8 @@
+name: "Auto Manage Issue Blockers"
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  call-issue-blocker:
+    uses: Budhaprasad/Workflow/.github/workflows/issue-blocker-reusable.yml@main
